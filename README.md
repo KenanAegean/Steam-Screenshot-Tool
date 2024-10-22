@@ -52,6 +52,10 @@ python steam_screenshot_tool.py
 
   ![After Running Screenshot](/For_ReadMe/after.png) 
 
+- **Missing Games:**
+
+  ![Missing Games Screenshot](/For_ReadMe/missing_games.png)
+
 
 
 ## How It Works
