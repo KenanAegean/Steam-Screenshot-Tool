@@ -78,7 +78,7 @@ def run_script():
                                     shutil.move(file_path, destination_file)
                                     log_text.insert(tk.END, f"Moved {file_name} to {new_screenshots_folder}\n")
                                 else:
-                                    shutil.copy(file_path, destination_file)
+                                    shutil.copy2(file_path, destination_file)
                                     log_text.insert(tk.END, f"Copied {file_name} to {new_screenshots_folder}\n")
                             else:
                                 log_text.insert(tk.END, f"Skipping non-file {file_name}\n")
